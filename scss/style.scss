@@ -1,0 +1,36 @@
+$font-stack: Arial, Helvetica, sans-serif;
+$light-color: #fff;
+$primary-color: #0e6cff;
+$secondary-color: #ff8700;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: $light-color;
+  font-family: $font-stack;
+  line-height: 1.6;
+}
+
+head {
+  background-color: $light-color;
+}
+
+img {
+  width: 100%;
+}
+
+.showcase {
+  background-color: $primary-color;
+  height: 600px;
+}
+
+.container {
+  max-width: 1100px;
+  padding: 0 30px;
+  margin: 0 auto;
+  overflow: hidden;
+}
